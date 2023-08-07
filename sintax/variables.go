@@ -2,6 +2,8 @@ package sintax
 
 import "fmt"
 
+type Id int
+
 // Declarando variaveis globais com tipo
 // tambem estou atribuindo valores a elas e em bloco
 var (
@@ -9,6 +11,7 @@ var (
 	c int  = 10
 	d string
 	e float64
+	h Id = 2
 )
 
 func PrintVariables() {
@@ -25,4 +28,5 @@ func PrintVariables() {
 	fmt.Println(e)
 	fmt.Println(f)
 	fmt.Println(g)
+	fmt.Println(h)
 }
