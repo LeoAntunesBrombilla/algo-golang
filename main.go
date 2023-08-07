@@ -4,6 +4,5 @@ import "algorithms/sintax"
 
 func main() {
 
-	sintax.Mymap()
-
+	sintax.Utils()
 }
