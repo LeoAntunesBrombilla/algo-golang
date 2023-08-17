@@ -4,5 +4,5 @@ import "algorithms/sintax"
 
 func main() {
 
-	sintax.MyStructs()
+	sintax.Files()
 }
